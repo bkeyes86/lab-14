@@ -24,6 +24,11 @@ function clearCart() {}
 // TODO: Fill in the <tr>'s under the <tbody> for each item in the cart
 function showCart() {
 
+  var tableBody = document.getElementById('cart');
+  for(var i = 0; i < cartItems.length; i++){
+    var cartItem = document.createElement('tr');
+    var deleteLink = document.createElement('td');
+  }
   // TODO: Find the table body
 
   // TODO: Iterate over the items in the cart
